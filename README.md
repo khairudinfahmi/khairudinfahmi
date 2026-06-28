@@ -20,6 +20,10 @@ I am an IT Support specialist and systems administrator who builds custom tools 
 * **Problem**: Managing download directories and ad-monetization code manually across multiple static pages is inefficient and degrades website loading performance.
 * **Solution**: Built a high-performance software download directory using Astro 5 and Keystatic CMS. Configured serverless functions on Vercel, dynamic ad injection, and an aggressive anti-adblock honeypot system while maintaining fast load times.
 
+### Internal Asset Management System
+* **Problem**: Tracking and auditing office equipment and device loans manually across multiple departments is slow, disorganized, and prone to equipment loss.
+* **Solution**: Engineered an internal web application using Laravel 12, Docker, and MySQL. Implemented role-based access control, automatic barcode/asset code generation, inventory auditing flows, and digital signatures for device loans, securing tracking and accountability.
+
 ---
 
 ## Technologies & Tools

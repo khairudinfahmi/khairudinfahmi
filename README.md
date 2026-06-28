@@ -1,28 +1,42 @@
-# Fahmi Khairudin
-IT Support | System Administrator | AI-Augmented Software Developer
-Bandung, Indonesia • fkhairudin7@gmail.com • [Website](https://khairudinfahmi.mydiscussion.net)
+<p align="center">
+  <img src="header.svg" width="100%" alt="Fahmi Khairudin Terminal" />
+</p>
+
+## About Me
 
 I am an IT Support specialist and systems administrator focused on resolving technical challenges across hardware, networks, and servers. Beyond core infrastructure, I actively develop internal applications and custom automation scripts that significantly reduce operational overhead. I am committed to delivering practical, impact-driven technology solutions that drive business productivity.
 
 ---
 
-## Core Projects & Impact
+## Core Projects
 
-### [Windows Printer Sharing Fix Utility](https://github.com/khairudinfahmi/WindowsPrinterSharingFix)
-* **Problem**: Windows Updates and Group Policy Objects (GPO) frequently reset registry configurations on Windows 10 & 11 (including 24H2/26H2+), breaking network printer sharing (errors 0x0000011b, 0x00000709).
-* **Solution**: Authored a lightweight PowerShell troubleshooting script with 89 execution options that permanently patches registry resets and resolves printer sharing access issues.
+### 🔧 [WindowsPrinterSharingFix](https://github.com/khairudinfahmi/WindowsPrinterSharingFix)
+> **Domain:** System Administration • **Stack:** PowerShell, Windows Registry API
+> 
+> A robust utility containing 89 options to permanently resolve network printer sharing issues (errors `0x0000011b`, `0x00000709`) by preventing Windows Update and GPO overrides.
 
-### [WareTricks](https://github.com/khairudinfahmi/waretricks)
-* **Problem**: Managing download directories and ad-monetization code manually across multiple static pages is inefficient and degrades website loading performance.
-* **Solution**: Built a high-performance software download directory using Astro 5 and Keystatic CMS. Configured serverless functions on Vercel, dynamic ad injection, and an aggressive anti-adblock honeypot system while maintaining fast load times.
+### 🚀 [WareTricks](https://github.com/khairudinfahmi/waretricks)
+> **Domain:** Web Development • **Stack:** Astro 5, Keystatic CMS, Vercel Serverless
+> 
+> A high-performance content delivery and monetization platform built with Astro 5, featuring ad manager integration, anti-adblock honeypots, and live index searching.
 
 ---
 
-## Technologies & Tools
+## Tech Stack
 
-* **Languages**: PowerShell, Python, PHP, JavaScript, SQL, HTML, CSS
-* **Frameworks & Platforms**: Astro, Laravel, Docker, Linux, Apache, MySQL
-* **IT Infrastructure**: Windows Server administration, network troubleshooting, active directory, helpdesk operations, Microsoft Power Automate
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,powershell,php,laravel,js,astro,linux,docker,mysql,git&theme=dark" alt="My Tech Stack" />
+  </a>
+</p>
+
+---
+
+## Stats & Activity
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=khairudinfahmi&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="Fahmi's GitHub Stats" />
+</p>
 
 ---
 

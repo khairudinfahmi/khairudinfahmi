@@ -45,7 +45,7 @@ Lately, I've been writing PowerShell/Python scripts and building internal toolsâ
 <!-- TECH-STACK-LIST:START -->
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=astro,css,docker,git,github,html,js,laravel,linux,mysql,nginx,php,powershell,python,ts,vscode,windows&perline=8&theme=dark" alt="Fahmi's Tech Stack" />
+    <img src="https://skillicons.dev/icons?i=docker,git,github,linux,nginx,vscode,windows&perline=8&theme=dark" alt="Fahmi's Tech Stack" />
   </a>
 </p>
 <!-- TECH-STACK-LIST:END -->

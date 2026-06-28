@@ -49,16 +49,14 @@ $ cat ~/projects/WareTricks.conf
 
 ## >_ Telemetry & Server Stats
 
-<table style="border: none; border-collapse: collapse;">
-  <tr style="border: none;">
-    <td style="border: none; padding: 0 10px 0 0;">
-      <img src="https://github-readme-stats.vercel.app/api?username=khairudinfahmi&show_icons=true&theme=terminal&hide_border=true&count_private=true" alt="GitHub Stats" />
-    </td>
-    <td style="border: none; padding: 0;">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=khairudinfahmi&theme=terminal&hide_border=true" alt="GitHub Streak" />
-    </td>
-  </tr>
-</table>
+<p align="left">
+  <a href="https://github.com/khairudinfahmi">
+    <img src="https://github-readme-stats.vercel.app/api?username=khairudinfahmi&show_icons=true&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&hide_border=true&count_private=true" alt="GitHub Stats" />
+  </a>
+  <a href="https://github.com/khairudinfahmi">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=khairudinfahmi&background=0d1117&ring=48bb78&fire=48bb78&currStreakNum=48bb78&sideNums=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=48bb78&hide_border=true" alt="GitHub Streak" />
+  </a>
+</p>
 
 ---
 

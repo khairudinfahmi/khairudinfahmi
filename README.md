@@ -52,22 +52,9 @@ Lately, I've been writing PowerShell/Python scripts and building internal toolsâ
 
 ## >_ Stats
 
-<div align="center">
-  <table border="0" cellpadding="0" cellspacing="0" width="100%">
-    <tr valign="top">
-      <td width="50%" align="center">
-        <a href="https://github.com/khairudinfahmi">
-          <img src="https://github-readme-stats.vercel.app/api?username=khairudinfahmi&show_icons=true&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&hide_border=true&count_private=true&cache_buster=3" alt="GitHub Stats" />
-        </a>
-      </td>
-      <td width="50%" align="center">
-        <a href="https://github.com/khairudinfahmi">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs?username=khairudinfahmi&layout=donut&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&hide_border=true&count_private=true&cache_buster=3" alt="Top Languages" />
-        </a>
-      </td>
-    </tr>
-  </table>
-</div>
+<p align="center">
+  <a href="https://github.com/khairudinfahmi"><img src="https://github-readme-stats.vercel.app/api?username=khairudinfahmi&show_icons=true&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&hide_border=true&count_private=true" alt="GitHub Stats" /></a><a href="https://github.com/khairudinfahmi"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=khairudinfahmi&layout=compact&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&hide_border=true&count_private=true" alt="Top Languages" /></a>
+</p>
 
 <p align="center">
   <a href="https://github.com/khairudinfahmi">
@@ -92,11 +79,5 @@ Lately, I've been writing PowerShell/Python scripts and building internal toolsâ
 ---
 
 ## >_ Latest Posts
-
-```text
->_ Status : Active (Listening for new posts on waretricks.vercel.app)
->_ Feed   : Awaiting first publication...
-```
-
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->

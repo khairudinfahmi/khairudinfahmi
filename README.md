@@ -2,7 +2,7 @@
 IT Support | System Administrator | AI-Augmented Software Developer
 Bandung, Indonesia • fkhairudin7@gmail.com • [Website](https://khairudinfahmi.mydiscussion.net)
 
-I am an IT Support specialist and systems administrator who builds custom tools to automate IT infrastructure, prevent operational errors, and streamline business workflows.
+I am an IT Support specialist and systems administrator focused on resolving technical challenges across hardware, networks, and servers. Beyond core infrastructure, I actively develop internal applications and custom automation scripts that significantly reduce operational overhead. I am committed to delivering practical, impact-driven technology solutions that drive business productivity.
 
 ---
 

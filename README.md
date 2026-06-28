@@ -84,5 +84,11 @@ Lately, I've been writing PowerShell/Python scripts and building internal toolsâ
 ---
 
 ## >_ Latest Posts
+
+```text
+>_ Status : Active (Listening for new posts on waretricks.vercel.app)
+>_ Feed   : Awaiting first publication...
+```
+
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->

@@ -53,12 +53,20 @@ Lately, I've been writing PowerShell/Python scripts and building internal toolsâ
 ## >_ Stats
 
 <p align="center">
-  <a href="https://github.com/khairudinfahmi"><img src="https://github-readme-stats.vercel.app/api?username=khairudinfahmi&show_icons=true&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&hide_border=true&count_private=true" alt="GitHub Stats" /></a><a href="https://github.com/khairudinfahmi"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=khairudinfahmi&layout=compact&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&hide_border=true&count_private=true" alt="Top Languages" /></a>
+  <a href="https://github.com/khairudinfahmi">
+    <img src="https://github-readme-stats.vercel.app/api?username=khairudinfahmi&show_icons=true&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&hide_border=true&count_private=true" alt="GitHub Stats" />
+  </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/khairudinfahmi">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=khairudinfahmi&background=0d1117&ring=48bb78&fire=48bb78&currStreakNum=48bb78&sideNums=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=48bb78&hide_border=true" alt="GitHub Streak" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/khairudinfahmi">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=khairudinfahmi&layout=compact&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&hide_border=true&count_private=true" alt="Top Languages" />
   </a>
 </p>
 
@@ -79,5 +87,11 @@ Lately, I've been writing PowerShell/Python scripts and building internal toolsâ
 ---
 
 ## >_ Latest Posts
+
+```text
+>_ Status : Active (Listening for new posts on waretricks.vercel.app)
+>_ Feed   : Awaiting first publication...
+```
+
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->

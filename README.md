@@ -18,7 +18,7 @@ Lately, I've been writing PowerShell/Python scripts and building internal toolsâ
 
 ## >_ Open Source Project
 
-<p align="left">
+<p align="center">
   <a href="https://github.com/khairudinfahmi/WindowsPrinterSharingFix">
     <img width="350" src="https://github-readme-stats.vercel.app/api/pin?username=khairudinfahmi&repo=WindowsPrinterSharingFix&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&border_color=48bb78" alt="WindowsPrinterSharingFix" />
   </a>
@@ -28,10 +28,12 @@ Lately, I've been writing PowerShell/Python scripts and building internal toolsâ
 
 ## >_ IT Tools & Workarounds
 
-If you need essential software downloads, system utilities, or quick IT workarounds, you can visit my privately-hosted portal directly at **[WareTricks](https://waretricks.vercel.app)**.
+<p align="center">
+  If you need essential software downloads, system utilities, or quick IT workarounds, you can visit my portal directly at <strong><a href="https://waretricks.vercel.app">WareTricks</a></strong>.
+</p>
 
-<p align="left">
-  <a href="https://github.com/khairudinfahmi/waretricks">
+<p align="center">
+  <a href="https://waretricks.vercel.app">
     <img width="350" src="https://github-readme-stats.vercel.app/api/pin?username=khairudinfahmi&repo=waretricks&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&border_color=48bb78" alt="WareTricks" />
   </a>
 </p>

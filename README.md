@@ -34,7 +34,7 @@ Lately, I've been writing PowerShell/Python scripts and building internal toolsâ
 
 <p align="center">
   <a href="https://waretricks.vercel.app">
-    <img width="350" src="https://github-readme-stats.vercel.app/api/pin?username=khairudinfahmi&repo=waretricks&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&border_color=48bb78" alt="WareTricks" />
+    <img width="600" src="https://raw.githubusercontent.com/khairudinfahmi/khairudinfahmi/main/waretricks_banner.png" alt="WareTricks Portal" />
   </a>
 </p>
 

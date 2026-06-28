@@ -53,7 +53,7 @@ Lately, I've been writing PowerShell/Python scripts and building internal toolsâ
 ## >_ Stats
 
 <p align="center">
-  <a href="https://github.com/khairudinfahmi"><img src="https://github-readme-stats.vercel.app/api?username=khairudinfahmi&show_icons=true&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&hide_border=true&count_private=true&cache_buster=1" alt="GitHub Stats" /></a><a href="https://github.com/khairudinfahmi"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=khairudinfahmi&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&hide_border=true&count_private=true&cache_buster=1" alt="Top Languages" /></a>
+  <a href="https://github.com/khairudinfahmi"><img height="195" src="https://github-readme-stats.vercel.app/api?username=khairudinfahmi&show_icons=true&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&hide_border=true&count_private=true&cache_buster=2" alt="GitHub Stats" /></a><a href="https://github.com/khairudinfahmi"><img height="195" src="https://github-readme-stats.vercel.app/api/top-langs?username=khairudinfahmi&layout=donut&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&hide_border=true&count_private=true&cache_buster=2" alt="Top Languages" /></a>
 </p>
 
 <p align="center">

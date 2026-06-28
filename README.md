@@ -18,22 +18,23 @@ Lately, I've been writing PowerShell/Python scripts and building internal tools�
 
 ## >_ Open Source Project
 
-### 🔧 [WindowsPrinterSharingFix](https://github.com/khairudinfahmi/WindowsPrinterSharingFix)
-
-```powershell
-# Quick fix for Windows network printer sharing errors (0x0000011b / 0x00000709).
-# Stack  : PowerShell, Registry API
-# Status : Active • Open Source
-# Source : https://github.com/khairudinfahmi/WindowsPrinterSharingFix
-```
+<p align="left">
+  <a href="https://github.com/khairudinfahmi/WindowsPrinterSharingFix">
+    <img width="350" src="https://github-readme-stats.vercel.app/api/pin?username=khairudinfahmi&repo=WindowsPrinterSharingFix&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&border_color=48bb78" alt="WindowsPrinterSharingFix" />
+  </a>
+</p>
 
 ---
 
 ## >_ IT Tools & Workarounds
 
-### 🚀 [WareTricks Portal](https://waretricks.vercel.app)
+If you need essential software downloads, system utilities, or quick IT workarounds, you can visit my privately-hosted portal directly at **[WareTricks](https://waretricks.vercel.app)**.
 
-If you need essential software downloads, system utilities, or quick IT workarounds, you can visit my privately-hosted portal directly at **[WareTricks](https://waretricks.vercel.app)**. 
+<p align="left">
+  <a href="https://github.com/khairudinfahmi/waretricks">
+    <img width="350" src="https://github-readme-stats.vercel.app/api/pin?username=khairudinfahmi&repo=waretricks&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&border_color=48bb78" alt="WareTricks" />
+  </a>
+</p>
 
 ---
 
@@ -54,13 +55,13 @@ If you need essential software downloads, system utilities, or quick IT workarou
     <img src="https://github-readme-stats.vercel.app/api?username=khairudinfahmi&show_icons=true&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&hide_border=true&count_private=true" alt="GitHub Stats" />
   </a>
   <a href="https://github.com/khairudinfahmi">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=khairudinfahmi&background=0d1117&ring=48bb78&fire=48bb78&currStreakNum=48bb78&sideNums=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=48bb78&hide_border=true" alt="GitHub Streak" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=khairudinfahmi&layout=compact&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&hide_border=true&count_private=true" alt="Top Languages" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/khairudinfahmi">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=khairudinfahmi&layout=compact&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&hide_border=true&count_private=true" alt="Top Languages" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=khairudinfahmi&background=0d1117&ring=48bb78&fire=48bb78&currStreakNum=48bb78&sideNums=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=48bb78&hide_border=true" alt="GitHub Streak" />
   </a>
 </p>
 

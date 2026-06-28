@@ -1,5 +1,4 @@
-# fahmi@khairudinfahmi:~$ whoami
-Fahmi Khairudin
+# ~$ whoami
 
 <p align="left">
   <a href="https://github.com/khairudinfahmi">
@@ -11,35 +10,35 @@ Fahmi Khairudin
 
 ## >_ About Me
 
-I'm an IT professional blending infrastructure operations with software engineering. While my day-to-day involves troubleshooting hardware and network issues across both Linux and Windows environments, my real focus is building tools that eliminate manual work. 
+SysAdmin by day, automation scripter by night. I keep servers, networks, and hardware running (both Linux and Windows), but my favorite part of the job is coding tools to automate the boring stuff. 
 
-Recently, I've been shipping internal applications like a custom IT Asset Management system and writing scripts to automate routine server operations. I rely heavily on AI-augmented workflows to code faster, prioritizing practical, working systems over unnecessary complexity.
+Lately, I've been writing PowerShell/Python scripts and building internal tools—like a custom IT asset management system—to cut down manual tasks. I use AI tools to speed up my coding so I can focus on building things that just work.
 
 ---
 
-## >_ Projects Catalog
+## >_ Projects
 
 ```bash
 $ cat ~/projects/WindowsPrinterSharingFix.ps1
-# Description : A script that permanently patches network printer sharing errors (0x0000011b, 0x00000709).
-# Stack       : PowerShell, Windows Registry API, GPO Bypass
-# Status      : Production • Stable • Public
+# Description : Quick fix for Windows network printer sharing errors (0x0000011b / 0x00000709).
+# Stack       : PowerShell, Registry API
+# Status      : Active • Open Source
 # Source      : https://github.com/khairudinfahmi/WindowsPrinterSharingFix
 ```
 
 ```bash
 $ cat ~/projects/WareTricks.conf
-# Description : A fast, serverless directory for essential software and IT workarounds.
-# Stack       : Astro 5, Keystatic CMS, Vercel Serverless, Anti-Adblock Honeypot
-# Status      : Production • Online • Public
-# Source      : https://github.com/khairudinfahmi/waretricks
+# Description : Download portal and IT knowledge base built with Astro.
+# Stack       : Astro 5, Keystatic CMS, Vercel
+# Status      : Live • Private Repository
+# Website     : https://waretricks.vercel.app
 ```
 
 ---
 
-## >_ Core Capabilities
+## >_ Tech Stack
 
-<p align="left">
+<p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=python,powershell,bash,php,laravel,js,astro,linux,windows,docker,mysql,nginx,git,github,vscode&perline=8&theme=dark" alt="Fahmi's Tech Stack" />
   </a>
@@ -47,9 +46,9 @@ $ cat ~/projects/WareTricks.conf
 
 ---
 
-## >_ Telemetry & Server Stats
+## >_ GitHub Stats
 
-<p align="left">
+<p align="center">
   <a href="https://github.com/khairudinfahmi">
     <img src="https://github-readme-stats.vercel.app/api?username=khairudinfahmi&show_icons=true&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&hide_border=true&count_private=true" alt="GitHub Stats" />
   </a>
@@ -60,6 +59,6 @@ $ cat ~/projects/WareTricks.conf
 
 ---
 
-## >_ Latest Logs from the Blog
+## >_ Latest Posts
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->

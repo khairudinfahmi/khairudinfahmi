@@ -57,7 +57,7 @@ Lately, I've been writing PowerShell/Python scripts and building internal toolsâ
     <img src="https://github-readme-stats.vercel.app/api?username=khairudinfahmi&show_icons=true&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&hide_border=true&count_private=true" alt="GitHub Stats" />
   </a>
   <a href="https://github.com/khairudinfahmi">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=khairudinfahmi&layout=compact&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&hide_border=true&count_private=true" alt="Top Languages" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=khairudinfahmi&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&hide_border=true&count_private=true" alt="Top Languages" />
   </a>
 </p>
 

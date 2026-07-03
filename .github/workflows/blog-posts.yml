@@ -1,0 +1,67 @@
+name: Latest blog post workflow
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme-with-blog:
+    name: Update this repo's README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Update Dynamic Tech Stack
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python scripts/update_tech_stack.py
+
+      - name: Generate Stats SVGs Locally
+        env:
+          PAT_1: ${{ secrets.PERSONAL_ACCESS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p assets
+          git clone --depth 1 https://github.com/anuraghazra/github-readme-stats.git temp-stats
+          cd temp-stats
+          npm install
+          node express.js &
+          echo "Waiting for Express server to start..."
+          sleep 10
+          echo "Fetching Dark Mode SVGs..."
+          curl -sf -o ../assets/github-stats-dark.svg "http://localhost:9000/api?username=khairudinfahmi&show_icons=true&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&hide_border=true&include_all_commits=true"
+          curl -sf -o ../assets/top-languages-dark.svg "http://localhost:9000/api/top-langs?username=khairudinfahmi&layout=compact&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&hide_border=true"
+          curl -sf -o ../assets/windows-printer-sharing-fix-dark.svg "http://localhost:9000/api/pin?username=khairudinfahmi&repo=WindowsPrinterSharingFix&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&border_color=48bb78&card_width=320"
+          echo "Fetching Light Mode SVGs..."
+          curl -sf -o ../assets/github-stats-light.svg "http://localhost:9000/api?username=khairudinfahmi&show_icons=true&bg_color=ffffff&title_color=1a7f37&text_color=1f2328&icon_color=1a7f37&hide_border=true&include_all_commits=true"
+          curl -sf -o ../assets/top-languages-light.svg "http://localhost:9000/api/top-langs?username=khairudinfahmi&layout=compact&bg_color=ffffff&title_color=1a7f37&text_color=1f2328&icon_color=1a7f37&hide_border=true"
+          curl -sf -o ../assets/windows-printer-sharing-fix-light.svg "http://localhost:9000/api/pin?username=khairudinfahmi&repo=WindowsPrinterSharingFix&bg_color=ffffff&title_color=1a7f37&text_color=1f2328&icon_color=1a7f37&border_color=d0d7de&card_width=320"
+          echo "All dark + light SVGs fetched successfully!"
+          cd ..
+          rm -rf temp-stats
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update dynamic tech stack and stats cards"
+          git push
+
+      - name: Pull in blog posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://waretricks.vercel.app/rss.xml"

@@ -117,4 +117,5 @@ Lately, I've been writing PowerShell/Python scripts and building internal toolsâ
 ## >_ Latest Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Differences Between GPT and MBR Partitions on Hard Disks and SSDs](https://waretricks.vercel.app/tricks/differences-between-gpt-and-mbr-partitions-on-hard-disk-and-ssd/)
 <!-- BLOG-POST-LIST:END -->

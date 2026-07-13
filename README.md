@@ -117,5 +117,6 @@ Lately, I've been writing PowerShell/Python scripts and building internal toolsâ
 ## >_ Latest Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [WindowsPrinterSharingFix: Solusi Error Printer Sharing Windows &lpar;0x0000011b, 0x00000709, 0x00000bc4, dan error lainnya&rpar;](https://waretricks.vercel.app/software/windows-printer-sharing-fix-solusi-error-printer-sharing-windows-0x0000011b-0x00000709-0x00000bc4-dan-error-lainnya/)
 - [Differences Between GPT and MBR Partitions on Hard Disks and SSDs](https://waretricks.vercel.app/tricks/differences-between-gpt-and-mbr-partitions-on-hard-disk-and-ssd/)
 <!-- BLOG-POST-LIST:END -->

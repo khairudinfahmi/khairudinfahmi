@@ -39,6 +39,7 @@ jobs:
           cd temp-stats
           npm install
           node express.js &
+          SERVER_PID=$!
           echo "Waiting for Express server to start..."
           sleep 10
           echo "Fetching Dark Mode SVGs..."
@@ -50,6 +51,7 @@ jobs:
           curl -sf -o ../assets/top-languages-light.svg "http://localhost:9000/api/top-langs?username=khairudinfahmi&layout=compact&bg_color=ffffff&title_color=1a7f37&text_color=1f2328&icon_color=1a7f37&hide_border=true"
           curl -sf -o ../assets/windows-printer-sharing-fix-light.svg "http://localhost:9000/api/pin?username=khairudinfahmi&repo=WindowsPrinterSharingFix&bg_color=ffffff&title_color=1a7f37&text_color=1f2328&icon_color=1a7f37&border_color=d0d7de&card_width=320"
           echo "All dark + light SVGs fetched successfully!"
+          kill $SERVER_PID 2>/dev/null || true
           cd ..
           rm -rf temp-stats
 

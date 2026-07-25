@@ -38,7 +38,11 @@ Lately, I've been writing PowerShell/Python scripts and building internal toolsâ
 
 <p align="center">
   <a href="https://waretricks.vercel.app">
-    <img width="600" src="./assets/waretricks_banner_final.png" alt="WareTricks Portal" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/waretricks_banner_final_dark.png" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/waretricks_banner_final_light.png" />
+      <img width="600" src="./assets/waretricks_banner_final_dark.png" alt="WareTricks Portal" />
+    </picture>
   </a>
 </p>
 
@@ -46,6 +50,7 @@ Lately, I've been writing PowerShell/Python scripts and building internal toolsâ
 
 ## >_ Tech Stack
 
+<!-- TECH-STACK-LIST:START -->
 <p align="center">
   <a href="https://skillicons.dev">
     <picture>
@@ -55,6 +60,7 @@ Lately, I've been writing PowerShell/Python scripts and building internal toolsâ
     </picture>
   </a>
 </p>
+<!-- TECH-STACK-LIST:END -->
 
 ---
 

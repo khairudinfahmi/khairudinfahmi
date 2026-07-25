@@ -1,6 +1,7 @@
 import os
 import re
 import urllib.request
+import urllib.parse
 import json
 
 username = "khairudinfahmi"
@@ -32,9 +33,10 @@ SYSADMIN_TOOLS = [
 ]
 
 def get_existing_icons(readme_content):
-    match = re.search(r"https://skillicons.dev/icons\?i=([a-z0-9,]+)", readme_content)
+    match = re.search(r"https://skillicons.dev/icons\?i=([a-zA-Z0-9,%]+)", readme_content)
     if match:
-        existing = match.group(1).split(",")
+        raw_icons = urllib.parse.unquote(match.group(1))
+        existing = [icon.strip().lower() for icon in raw_icons.split(",") if icon.strip()]
         print(f"Found existing icons in README: {existing}")
         return set(existing)
     return set()
@@ -46,14 +48,18 @@ def fetch_languages():
         print("Using personal GITHUB_TOKEN to fetch all owned repositories (including private)...")
         url = "https://api.github.com/user/repos?per_page=100&type=owner"
         use_auth = True
+    elif github_token:
+        print("Using GITHUB_TOKEN for public repositories with auth rate-limit...")
+        url = f"https://api.github.com/users/{username}/repos?per_page=100"
+        use_auth = True
     else:
-        print("Fetching public repositories only (avoiding Actions Token 403 restriction)...")
+        print("Fetching public repositories without token (rate limited to 60 req/hr)...")
         url = f"https://api.github.com/users/{username}/repos?per_page=100"
         use_auth = False
         
     req = urllib.request.Request(url)
     if use_auth:
-        req.add_header("Authorization", f"token {github_token}")
+        req.add_header("Authorization", f"Bearer {github_token}")
     req.add_header("User-Agent", "antigravity-readme-updater")
     
     try:
@@ -63,6 +69,7 @@ def fetch_languages():
         print(f"Error fetching repos: {e}")
         if use_auth:
             print("Attempting fallback to public repos without auth...")
+            use_auth = False
             try:
                 public_url = f"https://api.github.com/users/{username}/repos?per_page=100"
                 req_fallback = urllib.request.Request(public_url)
@@ -84,7 +91,7 @@ def fetch_languages():
         lang_url = f"https://api.github.com/repos/{username}/{repo_name}/languages"
         lang_req = urllib.request.Request(lang_url)
         if use_auth:
-            lang_req.add_header("Authorization", f"token {github_token}")
+            lang_req.add_header("Authorization", f"Bearer {github_token}")
         lang_req.add_header("User-Agent", "antigravity-readme-updater")
         try:
             with urllib.request.urlopen(lang_req) as response:
@@ -127,6 +134,10 @@ def main():
     print(f"Final Tech Stack Icons: {icons_str}")
     
     pattern = r"<!-- TECH-STACK-LIST:START -->.*?<!-- TECH-STACK-LIST:END -->"
+    if not re.search(pattern, content, flags=re.DOTALL):
+        print("Warning: TECH-STACK-LIST markers not found in README.md! No update performed.")
+        return
+
     replacement = (
         f'<!-- TECH-STACK-LIST:START -->\n'
         f'<p align="center">\n'
@@ -143,10 +154,13 @@ def main():
     
     new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
     
-    with open(readme_path, "w", encoding="utf-8") as f:
-        f.write(new_content)
-        
-    print("Successfully updated README.md with dynamic Tech Stack!")
+    if new_content != content:
+        with open(readme_path, "w", encoding="utf-8") as f:
+            f.write(new_content)
+        print("Successfully updated README.md with dynamic Tech Stack!")
+    else:
+        print("README.md is already up to date with latest Tech Stack!")
 
 if __name__ == "__main__":
     main()
+

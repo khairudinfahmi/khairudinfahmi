@@ -108,16 +108,6 @@ Lately, I've been writing PowerShell/Python scripts and building internal toolsâ
   <img src="https://komarev.com/ghpvc/?username=khairudinfahmi&color=48bb78&style=flat-square&label=SYS_VIEWS" alt="SYS_VIEWS" />
 </p>
 
-<p align="center">
-  <a href="https://info.flagcounter.com/SX7t">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://s01.flagcounter.com/count2/SX7t/bg_0D1117/txt_FFFFFF/border_0D1117/columns_8/maxflags_16/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" />
-      <source media="(prefers-color-scheme: light)" srcset="https://s01.flagcounter.com/count2/SX7t/bg_FFFFFF/txt_1F2328/border_FFFFFF/columns_8/maxflags_16/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" />
-      <img src="https://s01.flagcounter.com/count2/SX7t/bg_0D1117/txt_FFFFFF/border_0D1117/columns_8/maxflags_16/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0" />
-    </picture>
-  </a>
-</p>
-
 ---
 
 ## >_ Latest Posts

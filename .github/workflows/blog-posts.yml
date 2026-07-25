@@ -43,11 +43,11 @@ jobs:
           echo "Waiting for Express server to start..."
           sleep 10
           echo "Fetching Dark Mode SVGs..."
-          curl -sf -o ../assets/github-stats-dark.svg "http://localhost:9000/api?username=khairudinfahmi&show_icons=true&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&hide_border=true&include_all_commits=true"
+          curl -sf -o ../assets/github-stats-dark.svg "http://localhost:9000/api?username=khairudinfahmi&show_icons=true&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&hide_border=true&include_all_commits=true&count_private=true"
           curl -sf -o ../assets/top-languages-dark.svg "http://localhost:9000/api/top-langs?username=khairudinfahmi&layout=compact&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&hide_border=true"
           curl -sf -o ../assets/windows-printer-sharing-fix-dark.svg "http://localhost:9000/api/pin?username=khairudinfahmi&repo=WindowsPrinterSharingFix&bg_color=0d1117&title_color=48bb78&text_color=ffffff&icon_color=48bb78&border_color=48bb78&card_width=320"
           echo "Fetching Light Mode SVGs..."
-          curl -sf -o ../assets/github-stats-light.svg "http://localhost:9000/api?username=khairudinfahmi&show_icons=true&bg_color=ffffff&title_color=1a7f37&text_color=1f2328&icon_color=1a7f37&hide_border=true&include_all_commits=true"
+          curl -sf -o ../assets/github-stats-light.svg "http://localhost:9000/api?username=khairudinfahmi&show_icons=true&bg_color=ffffff&title_color=1a7f37&text_color=1f2328&icon_color=1a7f37&hide_border=true&include_all_commits=true&count_private=true"
           curl -sf -o ../assets/top-languages-light.svg "http://localhost:9000/api/top-langs?username=khairudinfahmi&layout=compact&bg_color=ffffff&title_color=1a7f37&text_color=1f2328&icon_color=1a7f37&hide_border=true"
           curl -sf -o ../assets/windows-printer-sharing-fix-light.svg "http://localhost:9000/api/pin?username=khairudinfahmi&repo=WindowsPrinterSharingFix&bg_color=ffffff&title_color=1a7f37&text_color=1f2328&icon_color=1a7f37&border_color=d0d7de&card_width=320"
           echo "All dark + light SVGs fetched successfully!"

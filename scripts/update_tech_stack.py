@@ -3,14 +3,28 @@ import re
 import urllib.request
 import urllib.parse
 import json
+import subprocess
+import shutil
 
 username = "khairudinfahmi"
 github_token = os.environ.get("GITHUB_TOKEN")
+
+# Fallback ke GitHub CLI token jika dijalankan secara lokal dan env GITHUB_TOKEN tidak ada
+if not github_token and shutil.which("gh"):
+    try:
+        res = subprocess.run(["gh", "auth", "token"], capture_output=True, text=True, check=True)
+        token = res.stdout.strip()
+        if token:
+            github_token = token
+            print("Loaded GITHUB_TOKEN automatically from GitHub CLI.")
+    except Exception:
+        pass
 
 LANGUAGE_MAP = {
     "python": "python",
     "powershell": "powershell",
     "shell": "bash",
+    "bash": "bash",
     "php": "php",
     "javascript": "js",
     "typescript": "ts",
@@ -20,6 +34,19 @@ LANGUAGE_MAP = {
     "dockerfile": "docker",
     "mysql": "mysql",
     "nginx": "nginx",
+    "go": "go",
+    "rust": "rust",
+    "c": "c",
+    "c++": "cpp",
+    "c#": "cs",
+    "java": "java",
+    "kotlin": "kotlin",
+    "dart": "dart",
+    "vue": "vue",
+    "react": "react",
+    "svelte": "svelte",
+    "tailwind": "tailwind",
+    "tailwindcss": "tailwind",
 }
 
 SYSADMIN_TOOLS = [

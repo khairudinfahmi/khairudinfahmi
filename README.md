@@ -48,6 +48,24 @@ Lately, I've been writing PowerShell/Python scripts and building internal toolsâ
 
 ---
 
+## >_ Creative Venture & E-Commerce
+
+<p align="center">
+  Together with my partner, I also run <strong><a href="https://cliviaid.onrender.com">clivia.id</a></strong> â€” a handmade crochet studio based in Bandung crafting cute amigurumi dolls, flower bouquets, and aesthetic keychains. We built this custom web store and catalog to showcase our creations and handle customer orders.
+</p>
+
+<p align="center">
+  <a href="https://cliviaid.onrender.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/cliviaid_banner_dark.png" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/cliviaid_banner_light.png" />
+      <img width="600" src="./assets/cliviaid_banner_dark.png" alt="clivia.id Store & Catalog" />
+    </picture>
+  </a>
+</p>
+
+---
+
 ## >_ Tech Stack
 
 <!-- TECH-STACK-LIST:START -->
@@ -79,9 +97,9 @@ Lately, I've been writing PowerShell/Python scripts and building internal toolsâ
 <p align="center">
   <a href="https://github.com/khairudinfahmi">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=khairudinfahmi&background=0d1117&ring=48bb78&fire=48bb78&currStreakNum=48bb78&sideNums=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=48bb78&hide_border=true" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=khairudinfahmi&background=ffffff&ring=1a7f37&fire=1a7f37&currStreakNum=1a7f37&sideNums=1f2328&currStreakLabel=1f2328&sideLabels=1f2328&dates=1a7f37&hide_border=true" />
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=khairudinfahmi&background=0d1117&ring=48bb78&fire=48bb78&currStreakNum=48bb78&sideNums=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=48bb78&hide_border=true" alt="GitHub Streak" />
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/github-streak-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/github-streak-light.svg" />
+      <img src="./assets/github-streak-dark.svg" alt="GitHub Streak" />
     </picture>
   </a>
 </p>
@@ -94,14 +112,6 @@ Lately, I've been writing PowerShell/Python scripts and building internal toolsâ
       <img src="./assets/top-languages-dark.svg" alt="Top Languages" />
     </picture>
   </a>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=khairudinfahmi&bg_color=0d1117&color=ffffff&line=48bb78&point=48bb78&area=true&area_color=0d1117&hide_border=true&custom_title=Contribution%20Graph" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=khairudinfahmi&bg_color=ffffff&color=1f2328&line=1a7f37&point=1a7f37&area=true&area_color=dafbe1&hide_border=true&custom_title=Contribution%20Graph" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=khairudinfahmi&bg_color=0d1117&color=ffffff&line=48bb78&point=48bb78&area=true&area_color=0d1117&hide_border=true&custom_title=Contribution%20Graph" alt="Contribution Graph" />
-  </picture>
 </p>
 
 <p align="center">

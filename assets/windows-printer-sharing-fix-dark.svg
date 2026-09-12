@@ -100,7 +100,7 @@
     
 
     <text class="description" x="25" y="-5">
-      <tspan dy="1.2em" x="25">PowerShell script (89 options) to fix printer sharing</tspan><tspan dy="1.2em" x="25">errors like 0x0000011b, 0x00000709, and 0x00000bc4. Blocks</tspan><tspan dy="1.2em" x="25">Windows Update/GPO from resetting your registry on Win 10...</tspan>
+      <tspan dy="1.2em" x="25">Automated PowerShell utility (89 repair modules) to fix</tspan><tspan dy="1.2em" x="25">printer sharing errors like 0x0000011b, 0x00000709, and</tspan><tspan dy="1.2em" x="25">0x00000bc4. Prevents Windows Update/GPO from resetting...</tspan>
     </text>
 
     <g transform="translate(30, 75)">

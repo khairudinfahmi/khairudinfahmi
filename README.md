@@ -72,9 +72,9 @@ Lately, I've been writing PowerShell/Python scripts and building internal toolsâ
 <p align="center">
   <a href="https://skillicons.dev">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=astro%2Ccss%2Cdocker%2Cgit%2Cgithub%2Chtml%2Cjs%2Claravel%2Clinux%2Cmysql%2Cnginx%2Cphp%2Cpowershell%2Cpython%2Cts%2Cvscode%2Cwindows&perline=8&theme=dark" />
-      <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=astro%2Ccss%2Cdocker%2Cgit%2Cgithub%2Chtml%2Cjs%2Claravel%2Clinux%2Cmysql%2Cnginx%2Cphp%2Cpowershell%2Cpython%2Cts%2Cvscode%2Cwindows&perline=8&theme=light" />
-      <img src="https://skillicons.dev/icons?i=astro,css,docker,git,github,html,js,laravel,linux,mysql,nginx,php,powershell,python,ts,vscode,windows&perline=8&theme=dark" alt="Fahmi's Tech Stack" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=astro%2Cbash%2Ccss%2Cdocker%2Cgit%2Cgithub%2Chtml%2Cjs%2Claravel%2Clinux%2Cmysql%2Cnginx%2Cphp%2Cpowershell%2Cpython%2Cts%2Cvscode%2Cwindows&perline=8&theme=dark" />
+      <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=astro%2Cbash%2Ccss%2Cdocker%2Cgit%2Cgithub%2Chtml%2Cjs%2Claravel%2Clinux%2Cmysql%2Cnginx%2Cphp%2Cpowershell%2Cpython%2Cts%2Cvscode%2Cwindows&perline=8&theme=light" />
+      <img src="https://skillicons.dev/icons?i=astro,bash,css,docker,git,github,html,js,laravel,linux,mysql,nginx,php,powershell,python,ts,vscode,windows&perline=8&theme=dark" alt="Fahmi's Tech Stack" />
     </picture>
   </a>
 </p>

@@ -100,7 +100,7 @@
     
 
     <text class="description" x="25" y="-5">
-      <tspan dy="1.2em" x="25">Automated repair utility for Windows printer sharing errors</tspan><tspan dy="1.2em" x="25">(0x0000011b, 0x00000709, 0x00000bc4, SMB signing, RPC).</tspan><tspan dy="1.2em" x="25">Works on Windows 10, 11 (26H2+), and Server.</tspan>
+      <tspan dy="1.2em" x="25">Automated repair utility for Windows printer sharing errors</tspan><tspan dy="1.2em" x="25">(0x0000011b, 0x00000709, 0x00000bc4, SMB signing, RPC).</tspan><tspan dy="1.2em" x="25">Works on Windows 10, 11 (24H2+), and Server.</tspan>
     </text>
 
     <g transform="translate(30, 75)">
